@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void)
+{
+    char name[50];
+    float height;
+    
+    printf("Please enter your name:\n");
+    scanf("%s", name);
+    printf("Please enter your height:\n");
+    scanf("%f", &height);
+    printf("%s, you are %.3f feet tall.\n", name, height / 12);
+
+    return 0;
+}
